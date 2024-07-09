@@ -1,0 +1,118 @@
+body {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #393939;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.paper {
+    margin-bottom: 15px; /* Adjusted margin to reduce space between papers */
+    padding: 20px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paper h2 {
+    margin: 10px 0 5px; /* Adjusted margin to reduce space above and below the title */
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.paper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.paper p {
+    margin: 5px 0; /* Adjusted margin for paragraphs */
+}
+
+.paper p.no-figure {
+    color: #ff5555;
+    font-style: italic;
+    margin: 5px 0; /* Adjusted margin */
+}
+
+.paper a {
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+.paper a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #4a4a4a;
+}
+
+/* Adjust the spacing in the summary */
+#overall-summary p,
+#overall-summary b {
+    margin: 5px 0; /* Reduce the margin to make the space smaller */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+/* Adjust overall summary section */
+#overall-summary {
+    margin-bottom: 20px; /* Adjust margin at the bottom of the summary */
+}
+
+/* Adjust the spacing for the week heading */
+#papers h2 {
+    margin: 20px 0 10px; /* Adjust margin to reduce space above and below the week heading */
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .paper {
+        padding: 15px;
+    }
+}
