@@ -1,26 +1,26 @@
 {
-    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nThe following papers represent significant advancements in the field of Artificial Intelligence, showcasing innovative techniques and applications in machine learning, natural language processing, and problem-solving.\n\n<b>Meta-Rewarding LLMs</b> - proposes a self-improving alignment technique that enables Large Language Models (LLMs) to judge and improve their own judgment skills without human supervision. <br>\n<b>MindSearch</b> - presents a multi-agent framework that leverages LLMs to perform complex web-information seeking and integration tasks, improving the relevancy of retrieved information. <br>\n<b>Improved RAG with Self-Reasoning</b> - introduces an end-to-end self-reasoning framework that enhances the reliability and traceability of RAG systems, achieving comparable performance to state-of-the-art models with limited training samples. <br>\n<b>Llama 3.1</b> - showcases a collection of LLMs with improved capabilities, supporting multiple languages and extending the context window to 128K tokens, performing competitively with state-of-the-art models. <br>\n<b>AlphaProof & Alpha Geometry 2</b> - demonstrates the ability of AI systems to solve complex mathematical problems, achieving a silver-medal score in the International Mathematical Olympiad (IMO) and proving geometry problems using neuro-symbolic hybrid systems. <br>\n\nThese papers collectively highlight the rapid progress being made in AI research, with potential applications in areas such as natural language processing, problem-solving, and decision-making.<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n\n<b>RAG vs. Long-Context LLMs</b> - This paper compares the performance of Retrieval-Augmented Generators (RAG) and long-context Language Models (LLMs), finding that while LLMs outperform RAG, RAG is significantly less expensive, and proposes a method to leverage self-reflection to optimize performance and reduce computational cost.",
+    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nThe field of Artificial Intelligence (AI) has witnessed significant advancements in recent times, with several papers pushing the boundaries of what is possible with machine learning. Here is a brief summary of some of the most recent top machine learning papers:\n\n<b>Meta-Rewarding LLMs</b> - proposes a novel self-improving alignment technique that enables Large Language Models (LLMs) to judge and improve their own judgments without human supervision. <br>\n<b>MindSearch</b> - presents a multi-agent framework that leverages LLMs to perform complex web-information seeking and integration tasks, improving the relevancy of retrieved information. <br>\n<b>Improved RAG with Self-Reasoning</b> - introduces an end-to-end self-reasoning framework that enhances the reliability and traceability of RAG systems, allowing them to reason and distinguish relevant and irrelevant documents. <br>\n<b>Llama 3.1</b> - showcases a collection of LLMs that demonstrate competitive performance across various capabilities, including general knowledge, math reasoning, and tool use. <br>\n<b>AlphaProof & Alpha Geometry 2</b> - demonstrates the ability of AI systems to solve complex mathematical problems, including four out of six problems in the International Mathematical Olympiad (IMO). <br>\n\nThese papers collectively demonstrate the rapid progress being made in AI research, with significant advancements in areas such as self-improving alignment, multi-agent frameworks, and mathematical reasoning.<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n\n<b>RAG vs. Long-Context LLMs</b> - This paper compares the performance of Retrieval-Augmented Generators (RAG) and long-context Language Models (LLMs), finding that while LLMs outperform RAG on average, RAG is significantly more cost-effective, and proposes a novel approach to combine the strengths of both models.",
     "papers": [
         {
             "title": "1) **Meta-Rewarding LLMs** - proposes a self-improving alignment technique (no human supervision) where the LLM judges its own judgements and uses the feedback to improve its judgment skills; shows that leveraging this LLM-as-a-Meta-Judge approach improves the LLM's ability to judge and follow instructions; just doing self-improvement to generate better responses (act) saturates quickly; this work improves the LLM's ability to judge itself (judge) to avoid issues like reward hacking; in addition to the act and judge roles, a third role called meta-judge is used to evaluate the model's own judgements.",
             "pdf_link": "https://arxiv.org/abs/2407.19594",
             "tweet_link": "https://x.com/omarsar0/status/1818680848058585119",
             "youtube_link": "N/A",
-            "figure": "figures\\2407.png"
+            "figure": "figures\\2.png"
         },
         {
             "title": "2) **MindSearch** - presents an LLM-based multi-agent framework to perform complex web-information seeking and integration tasks; a web planner effectively decomposes complex queries followed by a web searcher that performs hierarchical information retrieval on the Internet to improve the relevancy of the retrieved information; the planning component is powered by an iterative graph construction which is used to better model complex problem-solving processes; the multi-agent framework handles long context problems better by distributing reasoning and retrieval tasks to specialized agents.",
             "pdf_link": "https://arxiv.org/abs/2407.20183",
             "tweet_link": "https://x.com/omarsar0/status/1818673381069226053",
             "youtube_link": "N/A",
-            "figure": "figures\\2407.png"
+            "figure": "figures\\2.png"
         },
         {
             "title": "3) **Improved RAG with Self-Reasoning** - presents an end-to-end self-reasoning framework to improve the reliability and traceability of RAG systems; leverages the reasoning trajectories generated by the LLM itself; the LLM is used to carry out the following 3 processes: 1) relevance-aware: judges the relevance between the retrieved documents and the question, 2) evidence-aware selective: chooses and cites relevant documents, and then automatically selects snippets of key sentences as evidence from the cited documents, and 3) trajectory analysis: generates a concise analysis based on all gathered self-reasoning trajectories generated by the previous 2 processes and then provides the final inferred answer; this method helps the model to be more selective, reason and distinguish relevant and irrelevant documents, therefore improving the accuracy of the overall RAG system; the framework achieves comparable performance to GPT-4 with only 2K training samples (generated by GPT-4).",
             "pdf_link": "https://arxiv.org/abs/2407.19813",
             "tweet_link": "https://x.com/omarsar0/status/1818139150882664696",
             "youtube_link": "N/A",
-            "figure": "figures\\2407.png"
+            "figure": "figures\\2.png"
         },
         {
             "title": "1) **Llama 3.1** - a collection of LLMs that include 8B, 70B, and 405B parameters models; supports eight languages and extends the context window to 128K tokens; performs competitively and in some cases outperforms state-of-the-art models across capabilities like general knowledge, math reasoning, and tool use.",
@@ -41,7 +41,7 @@
             "pdf_link": "https://arxiv.org/abs/2407.16833",
             "tweet_link": "https://x.com/omarsar0/status/1816495687984709940",
             "youtube_link": "https://www.youtube.com/watch?v=x_4az3p7mfo",
-            "figure": "figures\\2407.png"
+            "figure": "figures\\2.png"
         }
     ],
     "week_dates": [
