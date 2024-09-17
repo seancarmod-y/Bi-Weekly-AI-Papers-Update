@@ -1,52 +1,52 @@
 {
-    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nRecent advancements in Artificial Intelligence have led to significant breakthroughs in machine learning, with a focus on improving the reliability, efficiency, and capabilities of large language models (LLMs). The following summaries highlight the key findings and innovations presented in several top machine learning papers.\n\n<b>Meta-Rewarding LLMs</b> - proposes a self-improving alignment technique that enables LLMs to judge and improve their own judgment skills without human supervision. <br>\n<b>MindSearch</b> - presents a multi-agent framework that leverages LLMs to perform complex web-information seeking and integration tasks with improved relevancy and accuracy. <br>\n<b>Improved RAG with Self-Reasoning</b> - introduces an end-to-end self-reasoning framework that enhances the reliability and traceability of RAG systems by leveraging the LLM's own reasoning trajectories. <br>\n<b>Llama 3.1</b> - showcases a collection of LLMs with improved performance and capabilities, including support for eight languages and an extended context window. <br>\n<b>AlphaProof & Alpha Geometry 2</b> - demonstrates the ability of AI systems to solve complex mathematical problems, including four out of six problems in the International Mathematical Olympiad.<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nRecent advancements in Artificial Intelligence have led to significant breakthroughs in machine learning, with various studies exploring new approaches to improve performance and efficiency. This summary highlights key findings from top machine learning papers, including:\n\n<b>RAG vs. Long-Context LLMs</b> - compares the performance and efficiency of RAG and long-context LLMs, finding that long-context LLMs outperform RAG on average performance while RAG is significantly less expensive.",
+    "overall_summary": "<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n\nRecent advancements in Artificial Intelligence have led to breakthroughs in various fields, including protein design, natural language processing, and game simulation. These innovations have the potential to significantly impact multiple industries and revolutionize the way we approach complex problems.\n\n<b>AlphaProteo</b> - Achieves a 3-to 300-fold better binding affinities in protein design compared to existing methods. <br>\n<b>RAG in the Era of Long-Context LLMs</b> - Proposes a mechanism to improve performance on long-context question answering by using more relevant information. <br>\n<b>Strategic Chain-of-Thought</b> - Refines language model performance by incorporating strategic knowledge, achieving a 21.05% increase on the GSM8K datasets. <br>\n<b>GameGen</b> - Enables real-time interaction with complex environments using a diffusion model, achieving interactive simulation of DOOM at 20 fps. <br>\n<b>Agentic RAG for Time Series Analysis</b> - Improves time-series predictions using a multi-agent architecture and tuned small language models.<html>\n<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n<p>Recent breakthroughs in Artificial Intelligence (AI) have led to the development of innovative tools and frameworks that are revolutionizing the field. These papers highlight some of the most significant advancements in AI research.</p>\n<p><b>AutoGen Studio</b> - a low-code interface for rapidly prototyping AI agents.</p>\n<br>\n</html>",
     "papers": [
         {
-            "title": "1) **Meta-Rewarding LLMs** - proposes a self-improving alignment technique (no human supervision) where the LLM judges its own judgements and uses the feedback to improve its judgment skills; shows that leveraging this LLM-as-a-Meta-Judge approach improves the LLM's ability to judge and follow instructions; just doing self-improvement to generate better responses (act) saturates quickly; this work improves the LLM's ability to judge itself (judge) to avoid issues like reward hacking; in addition to the act and judge roles, a third role called meta-judge is used to evaluate the model's own judgements.",
-            "pdf_link": "https://arxiv.org/abs/2407.19594",
-            "tweet_link": "https://x.com/omarsar0/status/1818680848058585119",
+            "title": "1) **AlphaProteo** - presents a family of ML models trained for protein design; reports a 3-to 300-fold better binding affinities and higher experimental success rates compared to other existing methods on seven target proteins; shows that AlphaProteo\u2019s performance on hundreds of target proteins from the PDB is comparable to the seven targets.",
+            "pdf_link": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/AlphaProteo2024.pdf",
+            "tweet_link": "https://x.com/GoogleDeepMind/status/1831710991475777823",
             "youtube_link": "N/A",
-            "figure": "figures\\2407.19594.png"
+            "figure": "figures\\AlphaProteo2024..png"
         },
         {
-            "title": "2) **MindSearch** - presents an LLM-based multi-agent framework to perform complex web-information seeking and integration tasks; a web planner effectively decomposes complex queries followed by a web searcher that performs hierarchical information retrieval on the Internet to improve the relevancy of the retrieved information; the planning component is powered by an iterative graph construction which is used to better model complex problem-solving processes; the multi-agent framework handles long context problems better by distributing reasoning and retrieval tasks to specialized agents.",
-            "pdf_link": "https://arxiv.org/abs/2407.20183",
-            "tweet_link": "https://x.com/omarsar0/status/1818673381069226053",
-            "youtube_link": "N/A",
-            "figure": "figures\\2407.20183.png"
+            "title": "2) **RAG in the Era of Long-Context LLMs** - reports that longer-context LLMs suffer from a diminished focus on relevant information, which is one of the primary issues that a RAG system addresses (i.e., uses more relevant information); they propose an order-preserving RAG mechanism that improves performance on long-context question answering; it's not perfect and in fact, as retrieved chunks increase the quality of responses go up and then declines; they mention a sweet spot where it can achieve better quality with a lot fewer tokens than long-context LLMs.",
+            "pdf_link": "https://arxiv.org/abs/2409.01666",
+            "tweet_link": "https://x.com/omarsar0/status/1831389521839267888",
+            "youtube_link": "https://www.youtube.com/watch?v=ryVQHNwkfD4",
+            "figure": "figures\\2409.01666.png"
         },
         {
-            "title": "3) **Improved RAG with Self-Reasoning** - presents an end-to-end self-reasoning framework to improve the reliability and traceability of RAG systems; leverages the reasoning trajectories generated by the LLM itself; the LLM is used to carry out the following 3 processes: 1) relevance-aware: judges the relevance between the retrieved documents and the question, 2) evidence-aware selective: chooses and cites relevant documents, and then automatically selects snippets of key sentences as evidence from the cited documents, and 3) trajectory analysis: generates a concise analysis based on all gathered self-reasoning trajectories generated by the previous 2 processes and then provides the final inferred answer; this method helps the model to be more selective, reason and distinguish relevant and irrelevant documents, therefore improving the accuracy of the overall RAG system; the framework achieves comparable performance to GPT-4 with only 2K training samples (generated by GPT-4).",
-            "pdf_link": "https://arxiv.org/abs/2407.19813",
-            "tweet_link": "https://x.com/omarsar0/status/1818139150882664696",
+            "title": "3) **Strategic Chain-of-Thought** - a method to refine LLM performance by incorporating strategic knowledge before the intermediate CoT reasoning steps; the problem-solving strategy helps to guide the generation of the CoT paths and final answers; claims to achieve a 21.05% increase on the GSM8K datasets using the Llama3-8b model.",
+            "pdf_link": "https://arxiv.org/abs/2409.03271v1",
+            "tweet_link": "N/A",
             "youtube_link": "N/A",
-            "figure": "figures\\2407.19813.png"
+            "figure": "figures\\2409.03271v1.png"
         },
         {
-            "title": "1) **Llama 3.1** - a collection of LLMs that include 8B, 70B, and 405B parameters models; supports eight languages and extends the context window to 128K tokens; performs competitively and in some cases outperforms state-of-the-art models across capabilities like general knowledge, math reasoning, and tool use.",
-            "pdf_link": "https://scontent.fbze2-1.fna.fbcdn.net/v/t39.2365-6/452387774_1036916434819166_4173978747091533306_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=t6egZJ8QdI4Q7kNvgHPkimJ&_nc_ht=scontent.fbze2-1.fna&oh=00_AYCV8TJ9rZquHu-nvz4-TFSZXLmCjer_LVQTms1bFpzHpA&oe=66A5D24D",
-            "tweet_link": "https://x.com/AIatMeta/status/1815766327463907421",
-            "youtube_link": "N/A",
-            "figure": "Error downloading figure after multiple attempts."
+            "title": "1) **GameGen** - a game engine powered by a diffusion model that enables real-time interaction with complex environments over long trajectories; uses a two-phase training process involving an RL agent to learn and a diffusion model to generate frames; it can interactively simulate DOOM over at 20 fps on a single TPU.",
+            "pdf_link": "https://arxiv.org/abs/2408.14837",
+            "tweet_link": "https://x.com/iScienceLuvr/status/1828617875432841490",
+            "youtube_link": "https://www.youtube.com/watch?v=H8F6J7mYyz0",
+            "figure": "figures\\2408.14837.png"
         },
         {
-            "title": "2) **AlphaProof & Alpha Geometry 2** - solved 4 out of 6 problems in this year\u2019s IMO which is the equivalent of a silver-medal score; AlphaProof consists of a Gemini model that automatically translates natural language problem statements into formal statements (i.e., formalizer network); then a solver network searches for proofs/disproofs and progressively trains itself using AlphaZero to learn to solve even more complex problems; AlphaGeometry 2, a neuro symbolic hybrid system, proved the geometry problem; based on the Gemini model and trained from scratch on large amounts of synthetic data.",
-            "pdf_link": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
-            "tweet_link": "https://x.com/JeffDean/status/1816498336171753948",
+            "title": "2) **Agentic RAG for Time Series Analysis** - proposes an agentic RAG framework for time series analysis; uses a multi-agent architecture where an agent orchestrates specialized sub-agents to complete time-series tasks; the sub-agents leverage tuned small language models and can retrieve relevant prompts containing knowledge about historical patterns and trends; this helps to improve predictions on new data.",
+            "pdf_link": "https://arxiv.org/abs/2408.14484",
+            "tweet_link": "https://x.com/omarsar0/status/1828838209461043455",
             "youtube_link": "N/A",
-            "figure": "No figure present for this paper."
+            "figure": "figures\\2408.14484.png"
         },
         {
-            "title": "3) **RAG vs. Long-Context LLMs** - compares RAG and long-context LLMs and finds that long-context LLMs outperform RAG on average performance while RAG is significantly less expensive; proposes Self-Route, leveraging self-reflection to route queries to RAG or LC; reports that Self-Route significantly reduces computational cost while maintaining comparable performance to LC.",
-            "pdf_link": "https://arxiv.org/abs/2407.16833",
-            "tweet_link": "https://x.com/omarsar0/status/1816495687984709940",
-            "youtube_link": "https://www.youtube.com/watch?v=x_4az3p7mfo",
-            "figure": "figures\\2407.16833.png"
+            "title": "3) **AutoGen Studio** - a low-code interface for rapidly prototyping AI agents. It's built on top of the AutoGen framework and can also be used for debugging and evaluating multi-agent workflows.",
+            "pdf_link": "https://arxiv.org/abs/2408.15247",
+            "tweet_link": "https://x.com/omarsar0/status/1829163090715529358",
+            "youtube_link": "N/A",
+            "figure": "figures\\2408.15247.png"
         }
     ],
     "week_dates": [
-        "July 29 - August 4",
-        "July 22 - July 28"
+        "September 2 - September 8",
+        "August 26 - September 1"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
