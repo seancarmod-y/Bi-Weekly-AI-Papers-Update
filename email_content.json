@@ -1,52 +1,52 @@
 {
-    "overall_summary": "<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n\nRecent advancements in Artificial Intelligence have led to breakthroughs in various fields, including protein design, natural language processing, and game simulation. These innovations have the potential to significantly impact multiple industries and revolutionize the way we approach complex problems.\n\n<b>AlphaProteo</b> - Achieves a 3-to 300-fold better binding affinities in protein design compared to existing methods. <br>\n<b>RAG in the Era of Long-Context LLMs</b> - Proposes a mechanism to improve performance on long-context question answering by using more relevant information. <br>\n<b>Strategic Chain-of-Thought</b> - Refines language model performance by incorporating strategic knowledge, achieving a 21.05% increase on the GSM8K datasets. <br>\n<b>GameGen</b> - Enables real-time interaction with complex environments using a diffusion model, achieving interactive simulation of DOOM at 20 fps. <br>\n<b>Agentic RAG for Time Series Analysis</b> - Improves time-series predictions using a multi-agent architecture and tuned small language models.<html>\n<h2>Summary of Recent Papers on Artificial Intelligence</h2>\n<p>Recent breakthroughs in Artificial Intelligence (AI) have led to the development of innovative tools and frameworks that are revolutionizing the field. These papers highlight some of the most significant advancements in AI research.</p>\n<p><b>AutoGen Studio</b> - a low-code interface for rapidly prototyping AI agents.</p>\n<br>\n</html>",
+    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\n<p>Recent advancements in Artificial Intelligence have led to the development of sophisticated language models and multimodal AI systems, enhancing their capabilities in various tasks and applications. The following summaries highlight the key findings and contributions of several top machine learning papers.</p>\n\n<p><b>Llama 3.2</b> - Introduces small and medium-sized vision LLMs and lightweight text-only models that outperform other models in their class on various tasks. <br>\n<b>Molmo</b> - Presents a family of open, state-of-the-art multimodal AI models that surpass proprietary models on several benchmarks. <br>\n<b>AlphaChip</b> - A reinforcement learning-based method used to design the physical layout of chips, with an open-source implementation and model checkpoint release. <br>\n<b>Moshi</b> - Introduces a speech-text foundation model and full-duplex spoken dialogue framework, enabling state-of-the-art performance on audio quality and conversation generation. <br>\n<b>Training LLMs to Self-Correct via RL</b> - Develops a multi-turn online reinforcement learning approach that enhances the self-correction capabilities of language models, achieving state-of-the-art performance on the MATH and HumanEval benchmarks.</p>\n\n<!-- rest of the article will go here --><h1>Recent Advances in Artificial Intelligence: A Summary of Top Machine Learning Papers</h1>\n\nRecent breakthroughs in Artificial Intelligence have pushed the boundaries of what is possible with machine learning, enabling significant advancements in various fields. This article provides a concise overview of the latest developments in AI research, highlighting key findings and innovations from top machine learning papers.\n\n<b>Advances in Model Development and Performance</b> \n- Several papers have reported on new models and architectures that achieve state-of-the-art results across multiple benchmarks, including strong capabilities in code generation, completion, and reasoning.\n\n<b>State-of-the-Art Models</b> \n- <b>Qwen2.5 Coder</b> is one such example, boasting a series of models with up to 7 billion parameters, built upon the Qwen2.5 architecture which has been continuously pretrained on 5.5 trillion tokens; it achieves state-of-the-art performance across more than 10 benchmarks.",
     "papers": [
         {
-            "title": "1) **AlphaProteo** - presents a family of ML models trained for protein design; reports a 3-to 300-fold better binding affinities and higher experimental success rates compared to other existing methods on seven target proteins; shows that AlphaProteo\u2019s performance on hundreds of target proteins from the PDB is comparable to the seven targets.",
-            "pdf_link": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/AlphaProteo2024.pdf",
-            "tweet_link": "https://x.com/GoogleDeepMind/status/1831710991475777823",
-            "youtube_link": "N/A",
-            "figure": "figures\\AlphaProteo2024..png"
+            "title": "1) **Llama 3.2** - presents small and medium-sized vision LLMs (11B and 90B parameters), and lightweight, text-only models (1B and 3B); the text-only models are trained to support context length of 128K tokens and outperform other models in their class on a range of tasks; vision models exceed other models such as Claude 3 Haiku on image understanding tasks.",
+            "pdf_link": "https://ai.meta.com/llama/",
+            "tweet_link": "https://twitter.com/Doctor_Zou/status/1782752058124554272",
+            "youtube_link": "https://www.youtube.com/watch?v=kIDvMKR1hTE",
+            "figure": "No figure present for this paper."
         },
         {
-            "title": "2) **RAG in the Era of Long-Context LLMs** - reports that longer-context LLMs suffer from a diminished focus on relevant information, which is one of the primary issues that a RAG system addresses (i.e., uses more relevant information); they propose an order-preserving RAG mechanism that improves performance on long-context question answering; it's not perfect and in fact, as retrieved chunks increase the quality of responses go up and then declines; they mention a sweet spot where it can achieve better quality with a lot fewer tokens than long-context LLMs.",
-            "pdf_link": "https://arxiv.org/abs/2409.01666",
-            "tweet_link": "https://x.com/omarsar0/status/1831389521839267888",
-            "youtube_link": "https://www.youtube.com/watch?v=ryVQHNwkfD4",
-            "figure": "figures\\2409.01666.png"
+            "title": "2)  **Molmo**  - presents a family of open, state-of-the-art multimodal AI models; the 72B model in the Molmo family outperforms others in the class of open weight and data models; it also compares favorably against proprietary models like GPT-4o, Claude 3.5, and Gemini 1.5 on several benchmarks.",
+            "pdf_link": "https://arxiv.org/abs/2409.14355",
+            "tweet_link": "https://twitter.com/emmanuel_vincze/status/1708249637918752987",
+            "youtube_link": "https://www.youtube.com/watch?v=UdNUAvFsxYo",
+            "figure": "figures\\2409.14355.png"
         },
         {
-            "title": "3) **Strategic Chain-of-Thought** - a method to refine LLM performance by incorporating strategic knowledge before the intermediate CoT reasoning steps; the problem-solving strategy helps to guide the generation of the CoT paths and final answers; claims to achieve a 21.05% increase on the GSM8K datasets using the Llama3-8b model.",
-            "pdf_link": "https://arxiv.org/abs/2409.03271v1",
-            "tweet_link": "N/A",
-            "youtube_link": "N/A",
-            "figure": "figures\\2409.03271v1.png"
+            "title": "3) **AlphaChip**  - a reinforcement learning-based method trained to design the physical layout of chips; AlphaChip is reportedly used in three additional generations of Google\u2019s TPU; this release includes an open-source implementation of the method to help pre-train on a variety of chip blocks to apply to new blocks; also releases a model checkpoint pre-trained on 20 TPU blocks.",
+            "pdf_link": "https://www.nature.com/articles/s41586-023-06188-7",
+            "tweet_link": "https://twitter.com/GoogleAI/status/1676118998259507200",
+            "youtube_link": "https://www.youtube.com/watch?v=2QwiLYkXax8",
+            "figure": "No figure present for this paper."
         },
         {
-            "title": "1) **GameGen** - a game engine powered by a diffusion model that enables real-time interaction with complex environments over long trajectories; uses a two-phase training process involving an RL agent to learn and a diffusion model to generate frames; it can interactively simulate DOOM over at 20 fps on a single TPU.",
-            "pdf_link": "https://arxiv.org/abs/2408.14837",
-            "tweet_link": "https://x.com/iScienceLuvr/status/1828617875432841490",
-            "youtube_link": "https://www.youtube.com/watch?v=H8F6J7mYyz0",
-            "figure": "figures\\2408.14837.png"
+            "title": "1) **Moshi** - introduces a speech-text foundation model and full-duplex spoken dialogue framework; they present several components of the systems; Helium is a 7B parameter text LLM; Mimi is a semantic-acoustic neural audio code with state-of-the-art performance on audio quality; a hierarchical multi-stream architecture that can generate arbitrary conversation in a speech-to-speech manner.",
+            "pdf_link": "https://kyutai.org/Moshi.pdf",
+            "tweet_link": "https://x.com/kyutai_labs/status/1836427396959932492",
+            "youtube_link": "https://www.youtube.com/watch?v=QRIn8-bVV30",
+            "figure": "figures\\Moshi..png"
         },
         {
-            "title": "2) **Agentic RAG for Time Series Analysis** - proposes an agentic RAG framework for time series analysis; uses a multi-agent architecture where an agent orchestrates specialized sub-agents to complete time-series tasks; the sub-agents leverage tuned small language models and can retrieve relevant prompts containing knowledge about historical patterns and trends; this helps to improve predictions on new data.",
-            "pdf_link": "https://arxiv.org/abs/2408.14484",
-            "tweet_link": "https://x.com/omarsar0/status/1828838209461043455",
-            "youtube_link": "N/A",
-            "figure": "figures\\2408.14484.png"
+            "title": "2) **Training LLMs to Self-Correct via RL** - develops a multi-turn online reinforcement learning to improve the capabilities of an LLM to self-correct; it\u2019s based entirely on self-generated data; SFT is shown to be ineffective at learning self-correction and suffers from distribution mismatch between training data and model responses; proposes a two-stage approach that first optimizes correction behavior and then uses a reward bonus to amplify self-correction during training; when applied to Gemini 1.0 Pro and 1.5 Flash models, it achieves state-of-the-art self-correction performance, improving the base models\u2019 self-correction by 15.6% and 9.1% respectively on the MATH and HumanEval benchmarks.",
+            "pdf_link": "https://arxiv.org/abs/2409.12917",
+            "tweet_link": "https://x.com/omarsar0/status/1837228446839361984",
+            "youtube_link": "https://www.youtube.com/watch?v=vfb_-ppgiaE",
+            "figure": "figures\\2409.12917.png"
         },
         {
-            "title": "3) **AutoGen Studio** - a low-code interface for rapidly prototyping AI agents. It's built on top of the AutoGen framework and can also be used for debugging and evaluating multi-agent workflows.",
-            "pdf_link": "https://arxiv.org/abs/2408.15247",
-            "tweet_link": "https://x.com/omarsar0/status/1829163090715529358",
-            "youtube_link": "N/A",
-            "figure": "figures\\2408.15247.png"
+            "title": "3) **Qwen2.5 Coder** - a series of models including 1.5B and 7B parameters; it\u2019s built upon the Qwen2.5 architecture which is continuously pretrained on 5.5 trillion tokens; achieves state-of-the-art performance across more than 10 benchmarks; includes strong capabilities in code generation, completion, reasoning, and repairing.",
+            "pdf_link": "https://arxiv.org/abs/2409.12186",
+            "tweet_link": "https://x.com/huybery/status/1837170643563073960",
+            "youtube_link": "https://www.youtube.com/watch?v=1C2vtgKEbcQ",
+            "figure": "figures\\2409.12186.png"
         }
     ],
     "week_dates": [
-        "September 2 - September 8",
-        "August 26 - September 1"
+        "September 23 - September 29",
+        "September 16 - September 22"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
