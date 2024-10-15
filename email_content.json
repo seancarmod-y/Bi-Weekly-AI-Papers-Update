@@ -1,52 +1,52 @@
 {
-    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n<p>\nRecent advancements in Artificial Intelligence have led to breakthroughs in various fields, including vision, text, and multimodal models, as well as reinforcement learning and self-correction capabilities.\n</p>\n<p>\n<b>Llama 3.2</b> - presents vision and text-only models that outperform others in their class on a range of tasks.<br>\n<b>Molmo</b> - introduces a family of state-of-the-art multimodal AI models that outperform proprietary models on several benchmarks.<br>\n<b>AlphaChip</b> - demonstrates a reinforcement learning-based method for designing the physical layout of chips, with a model checkpoint pre-trained on 20 TPU blocks.<br>\n<b>Moshi</b> - presents a speech-text foundation model and full-duplex spoken dialogue framework with state-of-the-art performance on audio quality.<br>\n<b>Training LLMs to Self-Correct via RL</b> - develops a multi-turn online reinforcement learning approach that improves the self-correction capabilities of LLMs, achieving state-of-the-art performance on the MATH and HumanEval benchmarks.\n</p><p><h1>Recent Breakthroughs in Artificial Intelligence: Summaries of Top Machine Learning Papers</h1></p>\n<p>Read on to discover the latest advancements in the field of Artificial Intelligence, as we delve into summaries of the most recent top machine learning papers. These innovative technologies have the potential to revolutionize various aspects of our lives and industries.</p>\n<p><b>Qwen2.5 Coder</b> - achieves state-of-the-art performance across multiple benchmarks, with strong capabilities in code generation, completion, reasoning, and repairing.",
+    "overall_summary": "<html>\n  <h2>A Summary of Recent Papers on Artificial Intelligence: Advancements in Machine Learning and Model Development</h2>\n  <p>Recent breakthroughs in artificial intelligence have led to significant advancements in machine learning capabilities and model development, enabling more efficient and effective applications across various domains. The following summaries highlight the key findings and contributions of these cutting-edge research papers.</p>\n  <p><b>MLE-Bench</b> - introduces a new benchmark for evaluating machine learning agents on machine learning engineering capabilities, achieving notable results with OpenAI's o1-preview model. <br>\n  <b>Differential Transformer</b> - proposes a differential attention mechanism that outperforms traditional Transformers by amplifying relevant context and canceling noise. <br>\n  <b>Astute RAG</b> - develops a novel RAG approach to combine internal and external knowledge in large language models, mitigating knowledge conflicts and imperfections. <br>\n  <b>Movie Gen</b> - presents a set of foundation models for generating high-quality videos, achieving state-of-the-art performance in tasks such as text-to-video synthesis and video personalization. <br>\n  <b>Were RNNs All We Needed?</b> - revisits and enhances RNNs, demonstrating that modified architectures can be efficiently trained in parallel, outperforming traditional methods.</p>\n</html><h1>Summary of Recent Papers on Artificial Intelligence</h1>\n<p>A series of groundbreaking research papers have recently emerged in the field of Artificial Intelligence, shedding light on various aspects of machine learning models. These studies have led to a deeper understanding of the capabilities and limitations of AI systems.</p>\n<p><b>LLMs Know More Than They Show</b> - A recent study has discovered that the internal representations of Large Language Models (LLMs) can be used to enhance error detection and predict the types of errors the models are likely to make.</p>",
     "papers": [
         {
-            "title": "1) **Llama 3.2** - presents small and medium-sized vision LLMs (11B and 90B parameters), and lightweight, text-only models (1B and 3B); the text-only models are trained to support context length of 128K tokens and outperform other models in their class on a range of tasks; vision models exceed other models such as Claude 3 Haiku on image understanding tasks.",
-            "pdf_link": "https://ai.meta.com/llama/",
-            "tweet_link": "https://twitter.com/Doctor_Zou/status/1782752058124554272",
-            "youtube_link": "https://www.youtube.com/watch?v=Ha6EUNZnHZw",
+            "title": "1) **MLE-Bench** - proposes a new benchmark for the evaluation of machine learning agents on machine learning engineering capabilities; includes 75 ML engineering-related competition from Kaggle testing on MLE skills such as training models, preparing datasets, and running experiments; OpenAI\u2019s o1-preview with the AIDE scaffolding achieves Kaggle bronze medal level in 16.9% of competitions.",
+            "pdf_link": "https://arxiv.org/abs/2410.07095",
+            "tweet_link": "https://x.com/OpenAI/status/1844429536353714427",
+            "youtube_link": "https://www.youtube.com/watch?v=LTxrnGx4JSo",
+            "figure": "figures\\2410.07095.png"
+        },
+        {
+            "title": "2) **Differential Transformer** - proposes a differential attention mechanism that amplifies attention to the relevant context while canceling noise; Differential Transformer outperforms Transformer when scaling up model size and training tokens; the authors claim that since this architecture gets less \"distracted\" by irrelevant context, it can do well in applications such as long-context modeling, key information retrieval, hallucination mitigation, in-context learning, and reduction of activation outliers.",
+            "pdf_link": "https://arxiv.org/abs/2410.05258",
+            "tweet_link": "https://x.com/omarsar0/status/1843694897020150216",
+            "youtube_link": "https://www.youtube.com/watch?v=9aS4334WX0o",
+            "figure": "figures\\2410.05258.png"
+        },
+        {
+            "title": "3) **Astute RAG** - proposes a novel RAG approach to deal with the imperfect retrieval augmentation and knowledge conflicts of LLMs; Astute RAG adaptively elicits essential information from LLMs' internal knowledge; then it iteratively consolidates internal and external knowledge with source awareness; Astute RAG is designed to better combine internal and external information through an interactive consolidation mechanism (i.e., identifying consistent passages, detecting conflicting information in them, and filtering out irrelevant information).",
+            "pdf_link": "https://arxiv.org/abs/2410.07176",
+            "tweet_link": "https://x.com/omarsar0/status/1844435988019544565",
+            "youtube_link": "https://www.youtube.com/watch?v=dSuXp9sWvss",
+            "figure": "figures\\2410.07176.png"
+        },
+        {
+            "title": "1) **Movie Gen** - a set of foundation models to generate high-quality, 1080p HD videos, including different aspect ratios and synchronized audio; the 30B parameter model supports a context length of 73K video tokens, which enables generation of 16-second videos at 16fps; it also presents a 13B parameter video-to-audio generation model and a novel video editing model that\u2019s attained via post-training; achieves state-of-the-art performance on tasks such as text-to-video synthesis, video personalization, video-to-audio generation and more.",
+            "pdf_link": "https://ai.meta.com/static-resource/movie-gen-research-paper",
+            "tweet_link": "https://x.com/AIatMeta/status/1842188252541043075",
+            "youtube_link": "https://www.youtube.com/watch?v=Xz-UkXUY-yQ",
             "figure": "figures/placeholder.png"
         },
         {
-            "title": "2)  **Molmo**  - presents a family of open, state-of-the-art multimodal AI models; the 72B model in the Molmo family outperforms others in the class of open weight and data models; it also compares favorably against proprietary models like GPT-4o, Claude 3.5, and Gemini 1.5 on several benchmarks.",
-            "pdf_link": "https://arxiv.org/abs/2409.14355",
-            "tweet_link": "https://twitter.com/emmanuel_vincze/status/1708249637918752987",
-            "youtube_link": "https://www.youtube.com/watch?v=m8WG3QzYODo",
-            "figure": "figures\\2409.14355.png"
+            "title": "2) **Were RNNs All We Needed?** - revisits RNNs and shows that by removing the hidden states from input, forget, and update gates RNNs can be efficiently trained in parallel; this is possible because with this change architectures like LSTMs and GRUs no longer require backpropagate through time (BPTT); they introduce minLSTMs and minGRUs that are 175x faster for a 512 sequence length.",
+            "pdf_link": "https://arxiv.org/abs/2410.01201",
+            "tweet_link": "https://x.com/omarsar0/status/1842246985790914608",
+            "youtube_link": "https://www.youtube.com/watch?v=DRpIu_FakLA",
+            "figure": "figures\\2410.01201.png"
         },
         {
-            "title": "3) **AlphaChip**  - a reinforcement learning-based method trained to design the physical layout of chips; AlphaChip is reportedly used in three additional generations of Google\u2019s TPU; this release includes an open-source implementation of the method to help pre-train on a variety of chip blocks to apply to new blocks; also releases a model checkpoint pre-trained on 20 TPU blocks.",
-            "pdf_link": "https://www.nature.com/articles/s41586-023-06188-7",
-            "tweet_link": "https://twitter.com/GoogleAI/status/1676118998259507200",
-            "youtube_link": "https://www.youtube.com/watch?v=XWHowKubuzM",
-            "figure": "figures/placeholder.png"
-        },
-        {
-            "title": "1) **Moshi** - introduces a speech-text foundation model and full-duplex spoken dialogue framework; they present several components of the systems; Helium is a 7B parameter text LLM; Mimi is a semantic-acoustic neural audio code with state-of-the-art performance on audio quality; a hierarchical multi-stream architecture that can generate arbitrary conversation in a speech-to-speech manner.",
-            "pdf_link": "https://kyutai.org/Moshi.pdf",
-            "tweet_link": "https://x.com/kyutai_labs/status/1836427396959932492",
-            "youtube_link": "https://www.youtube.com/watch?v=QRIn8-bVV30",
-            "figure": "figures\\Moshi..png"
-        },
-        {
-            "title": "2) **Training LLMs to Self-Correct via RL** - develops a multi-turn online reinforcement learning to improve the capabilities of an LLM to self-correct; it\u2019s based entirely on self-generated data; SFT is shown to be ineffective at learning self-correction and suffers from distribution mismatch between training data and model responses; proposes a two-stage approach that first optimizes correction behavior and then uses a reward bonus to amplify self-correction during training; when applied to Gemini 1.0 Pro and 1.5 Flash models, it achieves state-of-the-art self-correction performance, improving the base models\u2019 self-correction by 15.6% and 9.1% respectively on the MATH and HumanEval benchmarks.",
-            "pdf_link": "https://arxiv.org/abs/2409.12917",
-            "tweet_link": "https://x.com/omarsar0/status/1837228446839361984",
-            "youtube_link": "https://www.youtube.com/watch?v=vfb_-ppgiaE",
-            "figure": "figures\\2409.12917.png"
-        },
-        {
-            "title": "3) **Qwen2.5 Coder** - a series of models including 1.5B and 7B parameters; it\u2019s built upon the Qwen2.5 architecture which is continuously pretrained on 5.5 trillion tokens; achieves state-of-the-art performance across more than 10 benchmarks; includes strong capabilities in code generation, completion, reasoning, and repairing.",
-            "pdf_link": "https://arxiv.org/abs/2409.12186",
-            "tweet_link": "https://x.com/huybery/status/1837170643563073960",
-            "youtube_link": "https://www.youtube.com/watch?v=t4axf1_OmYw",
-            "figure": "figures\\2409.12186.png"
+            "title": "3) **LLMs Know More Than They Show** - finds that the \"truthfulness\" information in LLMs is concentrated in specific tokens; this insight can help enhance error detection performance and further mitigate some of these issues; they also claim that internal representations can be used to predict the types of errors the LLMs are likely to make.",
+            "pdf_link": "https://arxiv.org/abs/2410.02707",
+            "tweet_link": "https://x.com/omarsar0/status/1842240840389001381",
+            "youtube_link": "https://www.youtube.com/watch?v=6-rOBiQ3HWo",
+            "figure": "figures\\2410.02707.png"
         }
     ],
     "week_dates": [
-        "September 23 - September 29",
-        "September 16 - September 22"
+        "October 7 - October 13",
+        "September 30 - October 6"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
