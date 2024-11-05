@@ -1,52 +1,52 @@
 {
-    "overall_summary": "<html>\n  <h2>A Summary of Recent Papers on Artificial Intelligence: Advancements in Machine Learning and Model Development</h2>\n  <p>Recent breakthroughs in artificial intelligence have led to significant advancements in machine learning capabilities and model development, enabling more efficient and effective applications across various domains. The following summaries highlight the key findings and contributions of these cutting-edge research papers.</p>\n  <p><b>MLE-Bench</b> - introduces a new benchmark for evaluating machine learning agents on machine learning engineering capabilities, achieving notable results with OpenAI's o1-preview model. <br>\n  <b>Differential Transformer</b> - proposes a differential attention mechanism that outperforms traditional Transformers by amplifying relevant context and canceling noise. <br>\n  <b>Astute RAG</b> - develops a novel RAG approach to combine internal and external knowledge in large language models, mitigating knowledge conflicts and imperfections. <br>\n  <b>Movie Gen</b> - presents a set of foundation models for generating high-quality videos, achieving state-of-the-art performance in tasks such as text-to-video synthesis and video personalization. <br>\n  <b>Were RNNs All We Needed?</b> - revisits and enhances RNNs, demonstrating that modified architectures can be efficiently trained in parallel, outperforming traditional methods.</p>\n</html><h1>Summary of Recent Papers on Artificial Intelligence</h1>\n<p>A series of groundbreaking research papers have recently emerged in the field of Artificial Intelligence, shedding light on various aspects of machine learning models. These studies have led to a deeper understanding of the capabilities and limitations of AI systems.</p>\n<p><b>LLMs Know More Than They Show</b> - A recent study has discovered that the internal representations of Large Language Models (LLMs) can be used to enhance error detection and predict the types of errors the models are likely to make.</p>",
+    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nRecent advancements in Artificial Intelligence have led to significant breakthroughs in machine learning, enabling more efficient and effective models. This summary highlights the key findings of five papers that showcase the latest developments in AI.\n\n<b>Agentic Information Retrieval</b> - Introduces a new concept of information retrieval shaped by the capabilities of Large Language Model (LLM) agents, with applications and challenges discussed. <br>\n<b>Aya Expanse</b> - Presents a family of open-weight foundation models for multilingual capabilities, outperforming existing models in several benchmarks. <br>\n<b>A Theoretical Understanding of CoT</b> - Finds that adding correct and incorrect reasoning paths in demonstrations improves the accuracy of intermediate steps and CoT, achieving significant improvements on several benchmarks. <br>\n<b>Thinking LLMs</b> - Proposes a training method to equip LLMs with thinking abilities for general instruction-following without human-annotated data, yielding superior performance on several evaluation metrics. <br>\n<b>Model Swarms</b> - Introduces a new collaborative search algorithm to adapt LLM via swarm intelligence, achieving flexible adaptation to various tasks and human interests, and improving over multiple baselines.<html>\n<h1>Summary of Recent Papers on Artificial Intelligence</h1>\nArtificial intelligence continues to advance at a rapid pace, with recent research papers shedding light on various aspects of AI, from bias mitigation to human-computer interaction. \n\n<b>First-Person Fairness in Chatbots</b> - This study examines the fairness of chatbots like ChatGPT, analyzing biases towards users' names and demonstrating the effectiveness of post-training in mitigating harmful stereotypes.\n\n</html>",
     "papers": [
         {
-            "title": "1) **MLE-Bench** - proposes a new benchmark for the evaluation of machine learning agents on machine learning engineering capabilities; includes 75 ML engineering-related competition from Kaggle testing on MLE skills such as training models, preparing datasets, and running experiments; OpenAI\u2019s o1-preview with the AIDE scaffolding achieves Kaggle bronze medal level in 16.9% of competitions.",
-            "pdf_link": "https://arxiv.org/abs/2410.07095",
-            "tweet_link": "https://x.com/OpenAI/status/1844429536353714427",
-            "youtube_link": "https://www.youtube.com/watch?v=LTxrnGx4JSo",
-            "figure": "figures\\2410.07095.png"
+            "title": "1) **Agentic Information Retrieval** - provides an introduction to agentic information retrieval, which is shaped by the capabilities of LLM agents; discusses different types of cutting-edge applications of agentic information retrieval and challenges.",
+            "pdf_link": "https://arxiv.org/abs/2410.09713",
+            "tweet_link": "https://x.com/omarsar0/status/1848396596230127655",
+            "youtube_link": "https://www.youtube.com/watch?v=yJHdxYJgYhg",
+            "figure": "figures\\2410.09713.png"
         },
         {
-            "title": "2) **Differential Transformer** - proposes a differential attention mechanism that amplifies attention to the relevant context while canceling noise; Differential Transformer outperforms Transformer when scaling up model size and training tokens; the authors claim that since this architecture gets less \"distracted\" by irrelevant context, it can do well in applications such as long-context modeling, key information retrieval, hallucination mitigation, in-context learning, and reduction of activation outliers.",
-            "pdf_link": "https://arxiv.org/abs/2410.05258",
-            "tweet_link": "https://x.com/omarsar0/status/1843694897020150216",
-            "youtube_link": "https://www.youtube.com/watch?v=9aS4334WX0o",
-            "figure": "figures\\2410.05258.png"
-        },
-        {
-            "title": "3) **Astute RAG** - proposes a novel RAG approach to deal with the imperfect retrieval augmentation and knowledge conflicts of LLMs; Astute RAG adaptively elicits essential information from LLMs' internal knowledge; then it iteratively consolidates internal and external knowledge with source awareness; Astute RAG is designed to better combine internal and external information through an interactive consolidation mechanism (i.e., identifying consistent passages, detecting conflicting information in them, and filtering out irrelevant information).",
-            "pdf_link": "https://arxiv.org/abs/2410.07176",
-            "tweet_link": "https://x.com/omarsar0/status/1844435988019544565",
-            "youtube_link": "https://www.youtube.com/watch?v=dSuXp9sWvss",
-            "figure": "figures\\2410.07176.png"
-        },
-        {
-            "title": "1) **Movie Gen** - a set of foundation models to generate high-quality, 1080p HD videos, including different aspect ratios and synchronized audio; the 30B parameter model supports a context length of 73K video tokens, which enables generation of 16-second videos at 16fps; it also presents a 13B parameter video-to-audio generation model and a novel video editing model that\u2019s attained via post-training; achieves state-of-the-art performance on tasks such as text-to-video synthesis, video personalization, video-to-audio generation and more.",
-            "pdf_link": "https://ai.meta.com/static-resource/movie-gen-research-paper",
-            "tweet_link": "https://x.com/AIatMeta/status/1842188252541043075",
-            "youtube_link": "https://www.youtube.com/watch?v=Xz-UkXUY-yQ",
+            "title": "2) **Aya Expanse** - a family of open-weight foundation models for multilingual capabilities; releases an 8B and 32B parameter model, including one of the largest multilingual dataset collections to date, with 513 million examples; the release also includes Aya-101 which the authors claim is the most comprehensive multilingual models covering 101 languages; Aya Expanse 32B outperforms Gemma 2 27B, Mistral 8x22B, and Llama 3.1 70B, a model 2x its size.",
+            "pdf_link": "https://cohere.com/blog/aya-expanse-connecting-our-world",
+            "tweet_link": "https://x.com/CohereForAI/status/1849435983449587796",
+            "youtube_link": "https://www.youtube.com/watch?v=EtyWlMIochU",
             "figure": "figures/placeholder.png"
         },
         {
-            "title": "2) **Were RNNs All We Needed?** - revisits RNNs and shows that by removing the hidden states from input, forget, and update gates RNNs can be efficiently trained in parallel; this is possible because with this change architectures like LSTMs and GRUs no longer require backpropagate through time (BPTT); they introduce minLSTMs and minGRUs that are 175x faster for a 512 sequence length.",
-            "pdf_link": "https://arxiv.org/abs/2410.01201",
-            "tweet_link": "https://x.com/omarsar0/status/1842246985790914608",
-            "youtube_link": "https://www.youtube.com/watch?v=DRpIu_FakLA",
-            "figure": "figures\\2410.01201.png"
+            "title": "3) **A Theoretical Understanding of CoT** - finds that adding correct and incorrect reasoning paths in demonstrations improves the accuracy of intermediate steps and CoT; the proposed method, Coherent CoT, significantly improves performance on several benchmarks; in the Tracking Shuffled Objects dataset, Gemini Pro shows a 6.60% improvement (from 58.20% to 64.80%), and in Penguins in a Table, DeepSeek 67B demonstrates an increase of 6.17% (from 73.97% to 80.14%).",
+            "pdf_link": "https://arxiv.org/abs/2410.16540",
+            "tweet_link": "https://x.com/omarsar0/status/1849139985712369907",
+            "youtube_link": "https://www.youtube.com/watch?v=j58-aVBf8Mw",
+            "figure": "figures\\2410.16540.png"
         },
         {
-            "title": "3) **LLMs Know More Than They Show** - finds that the \"truthfulness\" information in LLMs is concentrated in specific tokens; this insight can help enhance error detection performance and further mitigate some of these issues; they also claim that internal representations can be used to predict the types of errors the LLMs are likely to make.",
-            "pdf_link": "https://arxiv.org/abs/2410.02707",
-            "tweet_link": "https://x.com/omarsar0/status/1842240840389001381",
-            "youtube_link": "https://www.youtube.com/watch?v=6-rOBiQ3HWo",
-            "figure": "figures\\2410.02707.png"
+            "title": "1) **Thinking LLMs** - proposes a training method to equip LLMs with thinking abilities for general instruction-following without human-annotated data; uses an iterative search and optimization procedure to explore thought generation which enables the model to learn without direct supervision; thought candidates for each user instruction are scored with a judge model; only responses are evaluated by the Judge which determines the best and worst ones; then the corresponding full outputs are used as chosen and rejected pairs for DPO (referred to as Thought Preference Optimization in this paper). reports superior performance on AlpacaEval and Arena-Hard.",
+            "pdf_link": "https://arxiv.org/abs/2410.10630",
+            "tweet_link": "https://x.com/omarsar0/status/1846227797972603047",
+            "youtube_link": "https://www.youtube.com/watch?v=mB_89lvRPyg",
+            "figure": "figures\\2410.10630.png"
+        },
+        {
+            "title": "2) **Model Swarms** - propose a new collaborative search algorithm to adapt LLM via swarm intelligence; a pool of LLM experts collaboratively move in the weight space and optimize a utility function representing various adaptation objectives; experiments demonstrate that Model Swarms could flexibly adapt LLM experts to a single task, multi-task domains, reward models, as well as diverse human interests. improves over 12 model composition baselines by up to 21.0% across tasks and contexts.",
+            "pdf_link": "https://arxiv.org/abs/2410.11163",
+            "tweet_link": "https://x.com/omarsar0/status/1846592954921849029",
+            "youtube_link": "https://www.youtube.com/watch?v=E6mgW_jyWQY",
+            "figure": "figures\\2410.11163.png"
+        },
+        {
+            "title": "3) **First-Person Fairness in Chatbots** - studies first-person fairness which involves fairness towards users interacting with ChatGPT; specifically, it measures the biases, if any, towards the users\u2019 names; it leverages a model powered by GPT-4o to analyze patterns and name-sensitivity in the chatbot\u2019s responses for different user names; claims that, overall, post-training significantly mitigate harmful stereotypes; also reports that in domains like entertainment and art, with open-ended tasks, demonstrate the highest level of bias (i.e., tendency to write stories with protagonists whose gender matches gender inferred from the user\u2019s name)",
+            "pdf_link": "https://cdn.openai.com/papers/first-person-fairness-in-chatbots.pdf",
+            "tweet_link": "https://x.com/OpenAINewsroom/status/1846238809991925838",
+            "youtube_link": "https://www.youtube.com/watch?v=ODq_c3YyU9Y",
+            "figure": "figures\\first-person-fairness-in-chatbots..png"
         }
     ],
     "week_dates": [
-        "October 7 - October 13",
-        "September 30 - October 6"
+        "October 21 - October 27",
+        "October 14 - October 20"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
