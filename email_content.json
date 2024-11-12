@@ -1,52 +1,52 @@
 {
-    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nRecent advancements in Artificial Intelligence have led to significant breakthroughs in machine learning, enabling more efficient and effective models. This summary highlights the key findings of five papers that showcase the latest developments in AI.\n\n<b>Agentic Information Retrieval</b> - Introduces a new concept of information retrieval shaped by the capabilities of Large Language Model (LLM) agents, with applications and challenges discussed. <br>\n<b>Aya Expanse</b> - Presents a family of open-weight foundation models for multilingual capabilities, outperforming existing models in several benchmarks. <br>\n<b>A Theoretical Understanding of CoT</b> - Finds that adding correct and incorrect reasoning paths in demonstrations improves the accuracy of intermediate steps and CoT, achieving significant improvements on several benchmarks. <br>\n<b>Thinking LLMs</b> - Proposes a training method to equip LLMs with thinking abilities for general instruction-following without human-annotated data, yielding superior performance on several evaluation metrics. <br>\n<b>Model Swarms</b> - Introduces a new collaborative search algorithm to adapt LLM via swarm intelligence, achieving flexible adaptation to various tasks and human interests, and improving over multiple baselines.<html>\n<h1>Summary of Recent Papers on Artificial Intelligence</h1>\nArtificial intelligence continues to advance at a rapid pace, with recent research papers shedding light on various aspects of AI, from bias mitigation to human-computer interaction. \n\n<b>First-Person Fairness in Chatbots</b> - This study examines the fairness of chatbots like ChatGPT, analyzing biases towards users' names and demonstrating the effectiveness of post-training in mitigating harmful stereotypes.\n\n</html>",
+    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nArtificial Intelligence is rapidly advancing, and recent papers have showcased significant progress in areas such as multi-agent systems, language models, and concept representations. Here are summaries of the most recent top machine learning papers:\n\n<b>Many-agent Simulations toward AI Civilization</b> - This paper demonstrates a simulated AI society where agents develop specialized roles, adhere to collective rules, and engage in cultural transmissions. <br>\n<b>A Comprehensive Survey of Small Language Models</b> - This survey provides an in-depth discussion on small language models, covering definitions, applications, enhancements, and reliability issues. <br>\n<b>Magentic-One</b> - This multi-agent system achieves competitive performance on various benchmarks, handling complex web and file-based tasks through an orchestrator and four specialized agents. <br>\n<b>Geometry of Concepts in LLMs</b> - This paper examines the geometric structure of concept representations in language models, revealing atomic-level patterns, brain-like functional \"lobes\", and specialized middle-layer structures. <br>\n<b>SimpleQA</b> - This paper introduces a challenging benchmark of factual questions, finding that frontier models like GPT-4 achieve less than 50% accuracy and highlighting room for improvement in confidence calibration. <br><h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nThis collection of top machine learning papers showcases the latest advancements in Artificial Intelligence, highlighting innovative approaches that improve efficiency, accuracy, and performance. The papers featured below are summaries of notable research that have the potential to significantly impact the field of AI.\n\n<b>Automating Agentic Workflow Generation</b> - A novel framework for automating workflow generation, outperforming existing methods and enabling smaller models to achieve superior results.",
     "papers": [
         {
-            "title": "1) **Agentic Information Retrieval** - provides an introduction to agentic information retrieval, which is shaped by the capabilities of LLM agents; discusses different types of cutting-edge applications of agentic information retrieval and challenges.",
-            "pdf_link": "https://arxiv.org/abs/2410.09713",
-            "tweet_link": "https://x.com/omarsar0/status/1848396596230127655",
-            "youtube_link": "https://www.youtube.com/watch?v=yJHdxYJgYhg",
-            "figure": "figures\\2410.09713.png"
+            "title": "1) **Many-agent Simulations toward AI Civilization** - demonstrates how 10-1000+ AI agents behave and progress with agent societies; proposes PIANO, an architecture that enables agents to interact with humans and other agents in real-time; shows that agents can autonomously develop specialized roles, adhere to and change collective rules, and engage in cultural and religious transmissions.",
+            "pdf_link": "https://arxiv.org/abs/2411.00114",
+            "tweet_link": "https://x.com/omarsar0/status/1853290196286021940",
+            "youtube_link": "https://www.youtube.com/watch?v=Wa3mstKpobQ",
+            "figure": "figures\\2411.00114.png"
         },
         {
-            "title": "2) **Aya Expanse** - a family of open-weight foundation models for multilingual capabilities; releases an 8B and 32B parameter model, including one of the largest multilingual dataset collections to date, with 513 million examples; the release also includes Aya-101 which the authors claim is the most comprehensive multilingual models covering 101 languages; Aya Expanse 32B outperforms Gemma 2 27B, Mistral 8x22B, and Llama 3.1 70B, a model 2x its size.",
-            "pdf_link": "https://cohere.com/blog/aya-expanse-connecting-our-world",
-            "tweet_link": "https://x.com/CohereForAI/status/1849435983449587796",
-            "youtube_link": "https://www.youtube.com/watch?v=EtyWlMIochU",
+            "title": "2) **A Comprehensive Survey of Small Language Models** - a survey on small language models (SLMs) and discussion on issues related to definitions, applications, enhancements, reliability, and more.",
+            "pdf_link": "https://arxiv.org/abs/2411.03350",
+            "tweet_link": "https://x.com/omarsar0/status/1854532748154695717",
+            "youtube_link": "https://www.youtube.com/watch?v=JD1Xf53-m2I",
+            "figure": "figures\\2411.03350.png"
+        },
+        {
+            "title": "3) **Magentic-One** - a new generalist multi-agent system designed to handle complex web and file-based tasks; it uses an Orchestrator agent that directs four specialized agents: WebSurfer for browser operations, FileSurfer for file management, Coder for programming tasks, and ComputerTerminal for console operations; Magentic-One achieves competitive performance on multiple benchmarks including GAIA, AssistantBench, and WebArena, without requiring modifications to its core architecture.",
+            "pdf_link": "https://www.microsoft.com/en-us/research/publication/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/",
+            "tweet_link": "https://x.com/omarsar0/status/1854910759232585786",
+            "youtube_link": "https://www.youtube.com/watch?v=JTAfMHwpnI8",
             "figure": "figures/placeholder.png"
         },
         {
-            "title": "3) **A Theoretical Understanding of CoT** - finds that adding correct and incorrect reasoning paths in demonstrations improves the accuracy of intermediate steps and CoT; the proposed method, Coherent CoT, significantly improves performance on several benchmarks; in the Tracking Shuffled Objects dataset, Gemini Pro shows a 6.60% improvement (from 58.20% to 64.80%), and in Penguins in a Table, DeepSeek 67B demonstrates an increase of 6.17% (from 73.97% to 80.14%).",
-            "pdf_link": "https://arxiv.org/abs/2410.16540",
-            "tweet_link": "https://x.com/omarsar0/status/1849139985712369907",
-            "youtube_link": "https://www.youtube.com/watch?v=j58-aVBf8Mw",
-            "figure": "figures\\2410.16540.png"
+            "title": "1) **Geometry of Concepts in LLMs** - examines the geometric structure of concept representations in sparse autoencoders (SAEs) at three scales: 1) atomic-level parallelogram patterns between related concepts (e.g., man:woman::king:queen), 2) brain-like functional \"lobes\" for different types of knowledge like math/code, 3) and galaxy-level eigenvalue distributions showing a specialized structure in middle model layers.",
+            "pdf_link": "https://arxiv.org/abs/2410.19750",
+            "tweet_link": "https://x.com/tegmark/status/1851288315867041903",
+            "youtube_link": "https://www.youtube.com/watch?v=w6qbxZwuQh4",
+            "figure": "figures\\2410.19750.png"
         },
         {
-            "title": "1) **Thinking LLMs** - proposes a training method to equip LLMs with thinking abilities for general instruction-following without human-annotated data; uses an iterative search and optimization procedure to explore thought generation which enables the model to learn without direct supervision; thought candidates for each user instruction are scored with a judge model; only responses are evaluated by the Judge which determines the best and worst ones; then the corresponding full outputs are used as chosen and rejected pairs for DPO (referred to as Thought Preference Optimization in this paper). reports superior performance on AlpacaEval and Arena-Hard.",
-            "pdf_link": "https://arxiv.org/abs/2410.10630",
-            "tweet_link": "https://x.com/omarsar0/status/1846227797972603047",
-            "youtube_link": "https://www.youtube.com/watch?v=mB_89lvRPyg",
-            "figure": "figures\\2410.10630.png"
+            "title": "2) **SimpleQA** - a challenging benchmark of 4,326 short factual questions adversarially collected against GPT-4 responses; reports that frontier models like GPT-4o and Claude achieve less than 50% accuracy; finds that there is a positive calibration between the model stated confidence and accuracy, signaling that they have some notion of confidence; claims that there is still room to improve the calibration of LLMs in terms of stated confidence.",
+            "pdf_link": "https://openai.com/index/introducing-simpleqa/",
+            "tweet_link": "https://x.com/OpenAI/status/1851680760539025639",
+            "youtube_link": "https://www.youtube.com/watch?v=bI0hRPx-tN4",
+            "figure": "figures/placeholder.png"
         },
         {
-            "title": "2) **Model Swarms** - propose a new collaborative search algorithm to adapt LLM via swarm intelligence; a pool of LLM experts collaboratively move in the weight space and optimize a utility function representing various adaptation objectives; experiments demonstrate that Model Swarms could flexibly adapt LLM experts to a single task, multi-task domains, reward models, as well as diverse human interests. improves over 12 model composition baselines by up to 21.0% across tasks and contexts.",
-            "pdf_link": "https://arxiv.org/abs/2410.11163",
-            "tweet_link": "https://x.com/omarsar0/status/1846592954921849029",
-            "youtube_link": "https://www.youtube.com/watch?v=E6mgW_jyWQY",
-            "figure": "figures\\2410.11163.png"
-        },
-        {
-            "title": "3) **First-Person Fairness in Chatbots** - studies first-person fairness which involves fairness towards users interacting with ChatGPT; specifically, it measures the biases, if any, towards the users\u2019 names; it leverages a model powered by GPT-4o to analyze patterns and name-sensitivity in the chatbot\u2019s responses for different user names; claims that, overall, post-training significantly mitigate harmful stereotypes; also reports that in domains like entertainment and art, with open-ended tasks, demonstrate the highest level of bias (i.e., tendency to write stories with protagonists whose gender matches gender inferred from the user\u2019s name)",
-            "pdf_link": "https://cdn.openai.com/papers/first-person-fairness-in-chatbots.pdf",
-            "tweet_link": "https://x.com/OpenAINewsroom/status/1846238809991925838",
-            "youtube_link": "https://www.youtube.com/watch?v=ODq_c3YyU9Y",
-            "figure": "figures\\first-person-fairness-in-chatbots..png"
+            "title": "3) **Automating Agentic Workflow Generation** - a novel framework for automating the generation of agentic workflows; it reformulates workflow optimization as a search problem over code-represented workflows, where edges connect LLM-invoking nodes; it efficiently explores the search space using a variant of MCTS, iteratively refining workflows through code modification, tree-structured experience, and execution feedback; experiments across six benchmark datasets demonstrate AFlow\u2019s effectiveness, showing a 5.7% improvement over manually designed methods and a 19.5% improvement over existing automated approaches; AFlow also enables smaller models to outperform GPT-4o on specific tasks at just 4.55% of its inference cost.",
+            "pdf_link": "https://arxiv.org/abs/2410.10762",
+            "tweet_link": "https://x.com/omarsar0/status/1852339570891014415",
+            "youtube_link": "https://www.youtube.com/watch?v=pDBqdhuJJYA",
+            "figure": "figures\\2410.10762.png"
         }
     ],
     "week_dates": [
-        "October 21 - October 27",
-        "October 14 - October 20"
+        "November 4 - November 10",
+        "October 28 - November 3"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
