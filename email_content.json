@@ -1,6 +1,27 @@
 {
-    "overall_summary": "<h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nArtificial Intelligence is rapidly advancing, and recent papers have showcased significant progress in areas such as multi-agent systems, language models, and concept representations. Here are summaries of the most recent top machine learning papers:\n\n<b>Many-agent Simulations toward AI Civilization</b> - This paper demonstrates a simulated AI society where agents develop specialized roles, adhere to collective rules, and engage in cultural transmissions. <br>\n<b>A Comprehensive Survey of Small Language Models</b> - This survey provides an in-depth discussion on small language models, covering definitions, applications, enhancements, and reliability issues. <br>\n<b>Magentic-One</b> - This multi-agent system achieves competitive performance on various benchmarks, handling complex web and file-based tasks through an orchestrator and four specialized agents. <br>\n<b>Geometry of Concepts in LLMs</b> - This paper examines the geometric structure of concept representations in language models, revealing atomic-level patterns, brain-like functional \"lobes\", and specialized middle-layer structures. <br>\n<b>SimpleQA</b> - This paper introduces a challenging benchmark of factual questions, finding that frontier models like GPT-4 achieve less than 50% accuracy and highlighting room for improvement in confidence calibration. <br><h1>Summary of Recent Papers on Artificial Intelligence</h1>\n\nThis collection of top machine learning papers showcases the latest advancements in Artificial Intelligence, highlighting innovative approaches that improve efficiency, accuracy, and performance. The papers featured below are summaries of notable research that have the potential to significantly impact the field of AI.\n\n<b>Automating Agentic Workflow Generation</b> - A novel framework for automating workflow generation, outperforming existing methods and enabling smaller models to achieve superior results.",
+    "overall_summary": "<html>\n<b>Summary of Recent Papers on Artificial Intelligence</b>\n<br>\nRecent research in Artificial Intelligence (AI) has led to breakthroughs in various areas, from enhancing innovation and productivity to significant advancements in language models and simulations. The following papers present cutting-edge findings and applications of AI, showcasing its potential to revolutionize numerous fields.\n\n<b>Impacts of AI on Innovation</b> - Top scientists leveraging AI for domain-specific innovation can lead to substantial gains in productivity and discovery. \n<b>Scaling Laws for Precision</b> - Researchers introduced \"precision-aware\" scaling laws to predict the impact of training and inference precision on language model performance. \n<b>Evo</b> - A 7B parameter AI model demonstrated superior performance in predicting and generating functional DNA, RNA, and protein sequences. \n<b>Many-agent Simulations toward AI Civilization</b> - Large-scale simulations of 10-1000+ AI agents revealed the potential for autonomous development of complex societies and cultural transmissions. \n<b>A Comprehensive Survey of Small Language Models</b> - The survey discusses the current state of small language models, covering definitions, applications, enhancements, and reliability.<h1>Recent Breakthroughs in Artificial Intelligence: A Summary of Top Machine Learning Papers</h1>\n\nThe field of Artificial Intelligence continues to advance at a rapid pace, with researchers pushing the boundaries of what is possible with machine learning. Here are summaries of the latest groundbreaking papers that are shaping the future of AI.\n\n<b>Magentic-One</b> - A multi-agent system capable of handling complex web and file-based tasks, achieving competitive performance on multiple benchmarks without requiring modifications to its core architecture.",
     "papers": [
+        {
+            "title": "1) **Impacts of AI on Innovation** - suggests that top scientists leverage their domain knowledge to prioritize promising AI suggestions, while others waste significant resources testing false positives; finds that implementing AI materials discovery technology leads to substantial increases in productivity, with 44% more materials discovered, 39% more patent filings, and 17% more product innovation; reports that these gains came with concerning tradeoffs, as 82% of scientists reported reduced job satisfaction due to decreased creativity and skill underutilization.",
+            "pdf_link": "https://aidantr.github.io/files/AI_innovation.pdf",
+            "tweet_link": "https://x.com/omarsar0/status/1856424446720127024",
+            "youtube_link": "https://www.youtube.com/watch?v=eLSaL6v7Uhw",
+            "figure": "figures\\AI_innovation..png"
+        },
+        {
+            "title": "2) **Scaling Laws for Precision** - introduces \"precision-aware\" scaling laws that predict how model performance is affected by both training and inference precision in LLMs; key findings include: 1) post-training quantization becomes more harmful as models are trained on more data, eventually making additional pretraining actively detrimental, 2) training in lower precision requires increasing model size to maintain performance, and 3) when jointly optimizing model size, data, and precision, the compute-optimal training precision is around 7-8 bits and independent of compute; also reports that when the model size is fixed, compute-optimal precision increases approximately logarithmically with data; the authors validate their predictions on models up to 1.7B parameters trained on up to 26B tokens, showing that both very high (16-bit) and very low (sub 4-bit) training precisions may be suboptimal.",
+            "pdf_link": "https://arxiv.org/abs/2411.04330",
+            "tweet_link": "https://x.com/tanishqkumar07/status/1856045600355352753",
+            "youtube_link": "https://www.youtube.com/watch?v=m6s0qOV38yk",
+            "figure": "figures\\2411.04330.png"
+        },
+        {
+            "title": "3) **Evo** - a 7B parameter AI model designed to understand and generate DNA sequences across multiple biological scales; the model, trained on 2.7 million prokaryotic and phage genomes, can process sequences up to 131 kilobases long while maintaining single-nucleotide resolution, enabling it to understand both molecular-level interactions and genome-wide patterns; Evo demonstrates superior performance in predicting and generating functional DNA, RNA, and protein sequences, including the first successful AI-generated CRISPR-Cas complexes and transposable systems that have been experimentally validated.",
+            "pdf_link": "https://www.science.org/doi/10.1126/science.ado9336",
+            "tweet_link": "https://x.com/arcinstitute/status/1857138107038187945",
+            "youtube_link": "https://www.youtube.com/watch?v=tnVXiK_GLmc",
+            "figure": "figures/placeholder.png"
+        },
         {
             "title": "1) **Many-agent Simulations toward AI Civilization** - demonstrates how 10-1000+ AI agents behave and progress with agent societies; proposes PIANO, an architecture that enables agents to interact with humans and other agents in real-time; shows that agents can autonomously develop specialized roles, adhere to and change collective rules, and engage in cultural and religious transmissions.",
             "pdf_link": "https://arxiv.org/abs/2411.00114",
@@ -21,32 +42,11 @@
             "tweet_link": "https://x.com/omarsar0/status/1854910759232585786",
             "youtube_link": "https://www.youtube.com/watch?v=JTAfMHwpnI8",
             "figure": "figures/placeholder.png"
-        },
-        {
-            "title": "1) **Geometry of Concepts in LLMs** - examines the geometric structure of concept representations in sparse autoencoders (SAEs) at three scales: 1) atomic-level parallelogram patterns between related concepts (e.g., man:woman::king:queen), 2) brain-like functional \"lobes\" for different types of knowledge like math/code, 3) and galaxy-level eigenvalue distributions showing a specialized structure in middle model layers.",
-            "pdf_link": "https://arxiv.org/abs/2410.19750",
-            "tweet_link": "https://x.com/tegmark/status/1851288315867041903",
-            "youtube_link": "https://www.youtube.com/watch?v=w6qbxZwuQh4",
-            "figure": "figures\\2410.19750.png"
-        },
-        {
-            "title": "2) **SimpleQA** - a challenging benchmark of 4,326 short factual questions adversarially collected against GPT-4 responses; reports that frontier models like GPT-4o and Claude achieve less than 50% accuracy; finds that there is a positive calibration between the model stated confidence and accuracy, signaling that they have some notion of confidence; claims that there is still room to improve the calibration of LLMs in terms of stated confidence.",
-            "pdf_link": "https://openai.com/index/introducing-simpleqa/",
-            "tweet_link": "https://x.com/OpenAI/status/1851680760539025639",
-            "youtube_link": "https://www.youtube.com/watch?v=bI0hRPx-tN4",
-            "figure": "figures/placeholder.png"
-        },
-        {
-            "title": "3) **Automating Agentic Workflow Generation** - a novel framework for automating the generation of agentic workflows; it reformulates workflow optimization as a search problem over code-represented workflows, where edges connect LLM-invoking nodes; it efficiently explores the search space using a variant of MCTS, iteratively refining workflows through code modification, tree-structured experience, and execution feedback; experiments across six benchmark datasets demonstrate AFlow\u2019s effectiveness, showing a 5.7% improvement over manually designed methods and a 19.5% improvement over existing automated approaches; AFlow also enables smaller models to outperform GPT-4o on specific tasks at just 4.55% of its inference cost.",
-            "pdf_link": "https://arxiv.org/abs/2410.10762",
-            "tweet_link": "https://x.com/omarsar0/status/1852339570891014415",
-            "youtube_link": "https://www.youtube.com/watch?v=pDBqdhuJJYA",
-            "figure": "figures\\2410.10762.png"
         }
     ],
     "week_dates": [
-        "November 4 - November 10",
-        "October 28 - November 3"
+        "November 11 - November 17",
+        "November 4 - November 10"
     ],
     "closing_message": "This concludes the bi-weekly AI papers update. Stay tuned for more exciting developments in the world of AI..."
 }
